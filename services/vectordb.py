@@ -1,7 +1,6 @@
 from langchain_chroma import Chroma
 from services.embeddings import get_embeddings
-import shutil
-import os
+
 
 
 def create_vectordb(chunks):

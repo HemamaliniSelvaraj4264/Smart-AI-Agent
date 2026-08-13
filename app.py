@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🤖 Smart AI Agent")
+st.title(" Smart AI Agent")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
